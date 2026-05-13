@@ -7,62 +7,62 @@
 import SwiftUI
 
 struct ContentView: View {
-//    var body: some View {
-//        Button("Hello, world!") {
-//            print(type(of: self.body))
-//        }
-//        .frame(width: 200, height: 200)
-//        .background(.red)
+    var body: some View {
+        Button("Hello, world!") {
+            print(type(of: self.body))
+        }
+        .frame(width: 200, height: 200)
+        .background(.red)
         
-//        Text("Hello, world!")
-//            .padding()
-//            .background(.red)
-//            .padding()
-//            .background(.blue)
-//            .padding()
-//            .background(.green)
-//            .padding()
-//            .background(.yellow)
+        Text("Hello, world!")
+            .padding()
+            .background(.red)
+            .padding()
+            .background(.blue)
+            .padding()
+            .background(.green)
+            .padding()
+            .background(.yellow)
         
-//        VStack {
-//            Text("Gryffindor")
-//            Text("Hufflepuff")
-//            Text("Ravenclaw")
-//            Text("Slytherin")
-//        }
-//        .font(.title)
+        VStack {
+            Text("Gryffindor")
+            Text("Hufflepuff")
+            Text("Ravenclaw")
+            Text("Slytherin")
+        }
+        .font(.title)
         
-//        VStack {
-//            Text("Gryffindor")
-//                .font(.largeTitle)
-//            Text("Hufflepuff")
-//            Text("Ravenclaw")
-//            Text("Slytherin")
-//        }
-//        .font(.title)
+        VStack {
+            Text("Gryffindor")
+                .font(.largeTitle)
+            Text("Hufflepuff")
+            Text("Ravenclaw")
+            Text("Slytherin")
+        }
+        .font(.title)
         
-//        VStack {
-//            Text("Gryffindor")
-////                .blur(radius: 0)
-//            Text("Hufflepuff")
-//            Text("Ravenclaw")
-//            Text("Slytherin")
-//        }
-//        .blur(radius: 5)
+        VStack {
+            Text("Gryffindor")
+//                .blur(radius: 0)
+            Text("Hufflepuff")
+            Text("Ravenclaw")
+            Text("Slytherin")
+        }
+        .blur(radius: 5)
         
         
-//    }
+    }
     
     let motto1 = Text("Draco dormiens")
     let motto2 = Text("nunquam titillandus")
 
     var body: some View {
-//        VStack {
-//            motto1
-//                .foregroundStyle(.red)
-//            motto2
-//                .foregroundStyle(.blue)
-//        }
+        VStack {
+            motto1
+                .foregroundStyle(.red)
+            motto2
+                .foregroundStyle(.blue)
+        }
         Text("Hello World")
             .modifier(Title())
         
