@@ -119,3 +119,16 @@ struct ContentView: View {
 
 
 
+struct BlueTitle: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .font(.largeTitle)
+            .foregroundStyle(.blue)
+    }
+}
+
+extension View {
+    func blueTitle() -> some View {
+        modifier(BlueTitle())
+    }
+}
