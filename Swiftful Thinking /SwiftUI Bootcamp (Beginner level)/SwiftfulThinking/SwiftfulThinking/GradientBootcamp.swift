@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct GradientBootcamp: View {
+    let width: CGFloat
+    let height: CGFloat
+    
     var body: some View {
         RoundedRectangle(cornerRadius: 25.0)
             .fill(
@@ -30,11 +33,11 @@ struct GradientBootcamp: View {
                     angle: .degrees(180 + 45)
                 )
             )
-            .frame(width: 300, height: 200)
+            .frame(width: width, height: height)
 //            .ignoresSafeArea()
     }
 }
 
 #Preview {
-    GradientBootcamp()
+    GradientBootcamp(width: 200, height: 300)
 }
